@@ -1,0 +1,103 @@
+
+.nav-icons * {
+  display: flex;
+  justify-content: center;
+}
+
+.background-color1{
+  background-color: #fbf97a;
+}
+
+@media only screen and (min-width: 600px) {
+  .fill {
+    height: 600px;
+  }
+  .tag {
+  display: flex;
+  justify-content: center;
+}
+}
+
+@media only screen and (max-width: 600px) {
+    .fill{
+      height:200px;
+}
+}
+
+.align-developer{
+  display: flex;
+  align-self: flex-start;
+}
+
+
+
+.background-color2{
+  background-color: rgb(153, 125, 219); 
+}
+
+.background-color3{
+  background-color: #E4572E;
+}
+
+.margin-left{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profile-photo{
+  width: 330px;
+  height: 310px;
+}
+
+.n-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.n-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.m-l {
+  margin-left: 3.5rem;
+  margin-top: .5rem;
+}
+
+.opacity{
+  opacity: 0.2;
+}
+
+.fab {
+  color: white;
+}
+
+.white-font{
+  color: white;
+}
+
+.hr-white{
+  background-color: white;
+}
+
+.logo-row {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo-img {
+  height: 150px;
+}
+
+/*
+@media (min-width: 992px)
+  .masthead {
+    max-height: 500vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+}*/
