@@ -3,8 +3,16 @@
   display: flex;
   justify-content: center;
 }
-
+/*
 .background-color1{
+  background-color: #fbf97a;
+  height: 100vh;
+}
+*/
+.background-color1{
+  background-image: url("images/yellowbackgroundtwo.png");
+  background-size: cover;
+  height: 100vh;
   background-color: #fbf97a;
 }
 
