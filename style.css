@@ -34,6 +34,10 @@
 }
 }
 
+@media all and (max-width: 480px) {
+  .tag { display: none; }
+}
+
 .align-developer{
   display: flex;
   align-self: flex-start;
