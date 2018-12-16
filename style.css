@@ -10,14 +10,8 @@
   height: 100vh;
 }
 
-/*
-.background-color1{
-  background-image: url("images/yellowbackgroundtwo.png");
-  background-size: cover;
-  height: 100vh;
-  background-color: #fbf97a;
-}
-*/
+
+
 @media only screen and (min-width: 600px) {
   .fill {
     height: 600px;
@@ -107,6 +101,32 @@
   height: 150px;
 }
 
+@media screen and (max-width: 600px) {
+  .logo-img {
+    height: 100px;
+  }
+}
+
+.centercircle{
+  text-align: center;
+}
+
+.projecttitle{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.marginsPara{
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.removeLinkDecor{
+  color: white;
+  text-decoration: none;
+}
 /*
 @media (min-width: 992px)
   .masthead {
