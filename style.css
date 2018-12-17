@@ -16,6 +16,11 @@
 }
 }
 
+@media only screen and (min-width: 400px) {
+.background-color1{
+  height: 700px;
+}
+}
 
 @media only screen and (min-width: 600px) {
   .fill {
@@ -33,9 +38,9 @@
 }
 }
 
-@media all and (max-width: 480px) {
+/* @media all and (max-width: 480px) {
   .tag { display: none; }
-}
+} */
 
 .align-developer{
   display: flex;
@@ -82,13 +87,19 @@
   opacity: 0.2;
 }
 
-.fab {
+.fabby {
   color: white;
 }
 
 .logoSize{
   width: 70px;
   height: auto;
+}
+
+.mongoSize{
+  width: 150px;
+  height: auto;
+  padding-top: 30px;
 }
 
 .white-font{
@@ -107,11 +118,13 @@
 
 .logo-img {
   height: 150px;
+  width: auto;
 }
+
 
 @media screen and (max-width: 600px) {
   .logo-img {
-    height: 100px;
+    height: 200px;
   }
 }
 
@@ -125,11 +138,27 @@
   margin-bottom: 20px;
 }
 
+@media only screen and (min-width: 1000px) {
+.marginsPara{
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+}
+}
+
+@media only screen and (max-width: 1000px) {
 .marginsPara{
   margin-left: 50px;
   margin-right: 50px;
   text-align: center;
 }
+}
+
+/* .marginsPara{
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+} */
 
 
 .removeLinkDecor{
@@ -139,6 +168,19 @@
 
 .frameWork{
   text-align: center;
+  margin-top: 10px;
+}
+
+.footer-awesome{
+  color: grey ;
+  font-size: 50px;
+}
+
+.center-footer{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
 }
 
 /*
