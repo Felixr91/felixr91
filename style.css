@@ -160,6 +160,9 @@
   text-align: center;
 } */
 
+.textDecor{
+  text-decoration: none;
+}
 
 .removeLinkDecor{
   color: white;
