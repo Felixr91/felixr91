@@ -16,11 +16,12 @@
 }
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 50px) {
 .background-color1{
   height: 700px;
 }
 }
+
 
 @media only screen and (min-width: 600px) {
   .fill {
@@ -52,7 +53,7 @@
 }
 
 .background-color3{
-  background-color: #E4572E;
+  background-color: #31B7C0;
 }
 
 .margin-left{
@@ -176,7 +177,7 @@
 
 .footer-awesome{
   color: grey ;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .center-footer{
