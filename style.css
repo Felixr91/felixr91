@@ -187,6 +187,21 @@
 
 }
 
+.hide-number{
+  display: none;
+}
+
+.phone-font{
+  font-size: 12px;
+}
+
+.hide-phone{
+  visibility: hidden;
+}
+
+.hide-email{
+  visibility: hidden;
+}
 /*
 @media (min-width: 992px)
   .masthead {
