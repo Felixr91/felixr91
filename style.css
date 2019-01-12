@@ -10,9 +10,9 @@
   height: 100vh;
 }
 
-@media only screen and (max-height: 650px) {
+@media only screen and (max-height: 600px) {
 .background-color1{
-  height: 650px;
+  height: 700px;
 
 }
 }
