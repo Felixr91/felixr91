@@ -6,12 +6,12 @@ let email = document.getElementById("email")
 
 let displayPhone = true
 
-phoneIcon.addEventListener("touchstart", function () {
+phoneIcon.addEventListener("click", function () {
   phoneIcon.style.display = "none"
   phoneNumber.classList.remove("hide-number")
 })
 
-emailIcon.addEventListener("touchstart", function () {
+emailIcon.addEventListener("click", function () {
   emailIcon.style.display = "none"
   email.classList.remove("hide-email")
 })

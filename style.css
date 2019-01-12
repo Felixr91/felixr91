@@ -66,6 +66,10 @@
 }
 }
 
+.col-12{
+  width: 100vw;
+}
+
 .n-name {
   display: flex;
   flex-direction: column;
@@ -201,6 +205,11 @@
 
 .hide-email{
   visibility: hidden;
+}
+
+
+.email{
+  font: 1rem;
 }
 /*
 @media (min-width: 992px)
