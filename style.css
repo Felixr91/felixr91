@@ -32,10 +32,6 @@
 }
 }
 
-/* @media all and (max-width: 480px) {
-  .tag { display: none; }
-} */
-
 .align-developer{
   display: flex;
   align-self: flex-start;
@@ -159,12 +155,6 @@
 }
 }
 
-/* .marginsPara{
-  margin-left: 50px;
-  margin-right: 50px;
-  text-align: center;
-} */
-
 .textDecor{
   text-decoration: none;
 }
@@ -211,11 +201,3 @@
 .email{
   font: 1rem;
 }
-/*
-@media (min-width: 992px)
-  .masthead {
-    max-height: 500vh;
-    min-height: 650px;
-    padding-top: 0;
-    padding-bottom: 0;
-}*/
