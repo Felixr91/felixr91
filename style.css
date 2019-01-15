@@ -65,7 +65,7 @@ background: linear-gradient(to right, #FFD200, #F7971E);
 
 @media only screen and (min-width: 1000px) {
 .profile-photo{
-  height: 450px;
+  height: 350px;
   width: auto;
 }
 }
