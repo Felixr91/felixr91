@@ -62,12 +62,19 @@ background: linear-gradient(to right, #FFD200, #F7971E);
   height: 310px;
 }
 
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 1000px) {
+.profile-photo{
+  height: 450px;
+  width: auto;
+}
+}
+
+/* @media only screen and (min-width: 300px) {
 .profile-photo{
   height: 250px;
   width: auto;
 }
-}
+} */
 
 .col-12{
   width: 100vw;
