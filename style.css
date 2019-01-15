@@ -9,6 +9,12 @@
   height: 100vh;
 }
 
+/* .background-color1{
+  background-image: linear-gradient(rgb(255, 187, 0), rgb(255, 187, 0), rgb(231, 204, 82), white);
+  height:100vh;
+  background-image: url("images/graphic2.png");
+} */
+
 @media only screen and (max-height: 600px) {
 .background-color1{
   height: 700px;
@@ -190,11 +196,11 @@
 }
 
 .hide-phone{
-  visibility: hidden;
+  display: none;
 }
 
 .hide-email{
-  visibility: hidden;
+  display: none;
 }
 
 
