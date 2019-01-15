@@ -10,9 +10,10 @@
 }
 
 /* .background-color1{
-  background-image: linear-gradient(rgb(255, 187, 0), rgb(255, 187, 0), rgb(231, 204, 82), white);
+background: #F7971E; 
+background: -webkit-linear-gradient(to right, #FFD200, #F7971E);
+background: linear-gradient(to right, #FFD200, #F7971E);
   height:100vh;
-  background-image: url("images/graphic2.png");
 } */
 
 @media only screen and (max-height: 600px) {
