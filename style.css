@@ -6,6 +6,7 @@
 .background-color1{
   background-color: #fbf97a;
   background-image: url("images/yellowbackgroundfancy.png");
+  background-repeat: no-repeat;
   height: 100vh;
 }
 
@@ -69,12 +70,12 @@ background: linear-gradient(to right, #FFD200, #F7971E);
 }
 }
 
-/* @media only screen and (min-width: 300px) {
+@media only screen and (min-width: 200px) and (max-width: 500px) {
 .profile-photo{
   height: 250px;
   width: auto;
 }
-} */
+}
 
 .col-12{
   width: 100vw;
