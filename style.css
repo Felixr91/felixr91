@@ -112,6 +112,11 @@ background: linear-gradient(to right, #FFD200, #F7971E);
   height: auto;
 }
 
+.mysql{
+  width: 140px;
+  height: auto;
+}
+
 .mongoSize{
   width: 150px;
   height: auto;
