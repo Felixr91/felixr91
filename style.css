@@ -149,6 +149,48 @@ background: linear-gradient(to right, #FFD200, #F7971E);
   }
 }
 
+@media screen and (min-width: 1000px) {
+  .align-developer {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .about-text {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .about-text {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .image-responsive{
+    padding-top: 100px;
+  }
+  .align-developer{
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .about-text {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-text {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
 .centercircle{
   text-align: center;
 }
