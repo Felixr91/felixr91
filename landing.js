@@ -15,3 +15,4 @@ emailIcon.addEventListener("click", function () {
   emailIcon.style.display = "none"
   email.classList.remove("hide-email")
 })
+
