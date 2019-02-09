@@ -19,7 +19,7 @@
 
   <div class="container-fluid">
     <!--header/Navbar-->
-    <div class="row background-color1 pt-5 pb-5 bg-image">
+    <div class="row background-color1 pt-5 pb-5 bg-image" id="header">
       <div class="col-3 offset-1">
         <h3 class="name">Felix Ramirez</h3>
       </div>
@@ -232,7 +232,7 @@
   </div>
 
   <!--Contact Form-->
-  <div class="row justify-content-around pb-2">
+  <div class="row justify-content-around pb-2" style="margin: 0px;">
     <a name="contact"></a>
     <div class="col-4 center-footer pb-0">
       <button id="phone-icon" class="btn btn-outline-light">
@@ -276,12 +276,12 @@
     });
     sr.reveal('.menu-items', {
       duration: 2500,
-      origin: 'left',
+      origin: 'right',
       distance: '100px'
     });
     sr.reveal('.name', {
       duration: 2500,
-      origin: 'right',
+      origin: 'left',
       distance: '100px'
     });
     sr.reveal('.frameworks', {
@@ -294,6 +294,11 @@
     });
     sr.reveal('.centercircle', {
       duration: 2000
+    });
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        $("#header").css("opacity", 1 - $(window).scrollTop() / ($('#header').height() / 1));
+      });
     });
   </script>
 </body>
