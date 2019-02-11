@@ -4,24 +4,17 @@
 }
 
 .background-color1{
-  background-color: #fbf97a;
-  background-image: url("images/yellowbackgroundfancy.png");
+  /* background-color: #fbf97a;
+  background-image: url("images/yellowbackgroundfancy.png"); */
+  background-color: #fff490;
   background-repeat: no-repeat;
   height: 100vh;
 }
 
-/* .background-color1{
-background: #F7971E; 
-background: -webkit-linear-gradient(to right, #FFD200, #F7971E);
-background: linear-gradient(to right, #FFD200, #F7971E);
-  height:100vh;
-} */
-
 @media only screen and (max-height: 600px) {
 .background-color1{
   height: 700px;
-
-}
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -174,6 +167,21 @@ background: linear-gradient(to right, #FFD200, #F7971E);
   }
   .align-developer{
     padding-top: 100px;
+  }
+}
+
+@media screen and (min-width: 767px){
+  .align-developer{
+    /* padding-top: 100px; */
+   margin-left: 40px;
+   /* margin-left: 200px; */
+  }
+}
+
+@media screen and (max-width: 767px){
+  .align-developer{
+   padding-left: 40px;
+   
   }
 }
 

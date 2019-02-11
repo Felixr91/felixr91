@@ -32,12 +32,12 @@
       </div>
 
       <!-- picture -->
-      <div class="image-responsive col-12 col-md-5 offset-md-1 mt-4 d-flex justify-content-center">
+      <div class="image-responsive col-12 col-md-5 offset-md-1 pb-2 mt-4 d-flex justify-content-center">
         <img src="images/felixPhoto2.png" class="profile-photo" alt="">
       </div>
 
       <!-- tag line -->
-      <div class="fill col-sm-7 offset-1 col-md-4 offset-md-0 pt-5 mt-md-5 mt-sm-2">
+      <div class="fill col-sm-7 col-md-5 pt-5 mt-md-5 mt-sm-2">
         <h2 class="align-developer">Web Developer</h2>
         <p class="tag"> </p>
       </div>
@@ -295,6 +295,7 @@
     sr.reveal('.centercircle', {
       duration: 2000
     });
+    // Fade Header on scroll
     $(document).ready(function () {
       $(window).scroll(function () {
         $("#header").css("opacity", 1 - $(window).scrollTop() / ($('#header').height() / 1));
