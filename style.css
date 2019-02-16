@@ -4,9 +4,9 @@
 }
 
 .background-color1{
-  /* background-color: #fbf97a;
-  background-image: url("images/yellowbackgroundfancy.png"); */
-  background-color: #fff490;
+  background-color: #fbf97a;
+  background-image: url("images/yellowbackgroundfancy.png");
+  /* background-color: #fff490; */
   background-repeat: no-repeat;
   height: 100vh;
 }
