@@ -45,8 +45,6 @@
 
     <!--About-->
     <div class="row vertical-center" style="height: 100vh;">
-
-
       <div class="about-text col-12 col-md-12">
         <h3 style="text-align: center;">About</h3>
         <hr>
@@ -281,6 +279,11 @@
     });
     sr.reveal('.profile-photo', {
       duration: 2000,
+    });
+    sr.reveal('.vertical-center', {
+      duration: 5000,
+      origin: 'bottom',
+      distance: '400px'
     });
     sr.reveal('.menu-items', {
       duration: 2500,
