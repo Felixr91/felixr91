@@ -5,6 +5,7 @@
 
 .background-color1{
   background-color: #fbf97a;
+  /* background-image: url("http://medistraw.com/wp-content/uploads/sites/6/2018/07/8589130423107-blue-mountains-landscape-wallpaper-hd.jpg"); */
   background-image: url("images/yellowbackgroundfancy.png");
   /* background-color: #fff490; */
   background-repeat: no-repeat;
@@ -270,4 +271,25 @@
 
 .email{
   font: 1rem;
+}
+
+
+/* .vertical-center{
+    position: absolute;
+    top:50%;
+    left: 0%;
+    transform:translate(0%, -50%);
+    -webkit-transform:translate(0%, -50%);
+} */
+
+.vertical-center {
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
