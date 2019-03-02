@@ -281,13 +281,19 @@ padding-left: 30px;
 }
 
 
-/* .vertical-center{
-    position: absolute;
-    top:50%;
-    left: 0%;
-    transform:translate(0%, -50%);
-    -webkit-transform:translate(0%, -50%);
-} */
+
+#spin {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
 
 .vertical-center {
   height: 100vh;
