@@ -233,8 +233,8 @@ padding-left: 30px;
 
 @media only screen and (min-width: 1200px){
   .marginsPara{
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 300px;
+    margin-right: 300px;
     text-align: center;
   }
 }
@@ -335,8 +335,14 @@ padding-left: 30px;
 }
 }
 
-@media only screen and (min-height: 500px){
+/* @media only screen and (min-height: 500px){
 .vertical-center {
   height: 100vh;
+}
+} */
+
+@media only screen and (min-height: 500px) and (min-width:300px) {
+.vertical-center {
+  height: 950px;
 }
 }
